@@ -1,0 +1,5 @@
+@mixin res() {
+    @media (max-width: 768px) {
+        @content;
+    }
+}

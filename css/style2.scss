@@ -1,0 +1,9 @@
+@import './mixins';
+
+.main {
+    font-size: 100px;
+
+    @include res() {
+        font-size: 50px;
+    }
+}

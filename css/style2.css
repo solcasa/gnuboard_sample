@@ -1,0 +1,8 @@
+.main {
+  font-size: 100px;
+}
+@media (max-width: 768px) {
+  .main {
+    font-size: 50px;
+  }
+}/*# sourceMappingURL=style2.css.map */
