@@ -60,8 +60,18 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
     </div>
 </header>
 
+
+
+
 <?php
     if(!defined('_INDEX_')) { // index가 아닐 때만 실행
         include G5_THEME_PATH.'/sub_head.php'; // 파일 집어넣기
     }
     ?>
+
+<script>
+    $(function(){
+        let num = <?=$cate_num;?>;
+        $('.gnb li').eq(num - 1).addClass('on');
+    });
+</script>
